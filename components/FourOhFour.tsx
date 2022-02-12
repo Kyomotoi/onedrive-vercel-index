@@ -23,16 +23,7 @@ const FourOhFour: React.FC<{ errorMsg: string }> = ({ errorMsg }) => {
             <kbd className="rounded border border-opacity-20 bg-gray-100 p-1 font-mono text-xs dark:bg-gray-800">
               F12
             </kbd>{' '}
-            and open devtools for more details, or seek help at{' '}
-            <a
-              className="text-blue-600 hover:text-blue-700 hover:underline"
-              href="https://github.com/spencerwooo/onedrive-vercel-index/discussions"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              onedrive-vercel-index discussions
-            </a>
-            .
+            and open devtools for more details.
           </Trans>
         </div>
       </div>
